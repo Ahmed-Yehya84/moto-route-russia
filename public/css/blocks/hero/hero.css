@@ -1,0 +1,13 @@
+.hero {
+  position: relative;
+  height: 80vh;
+  overflow: hidden;
+}
+
+/* media queries */
+
+@media (max-width: 768px) {
+  .hero {
+    height: 60vh;
+  }
+}

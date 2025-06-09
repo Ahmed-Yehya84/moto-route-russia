@@ -1,0 +1,10 @@
+/* root */
+@import url(../../public/css/root.css);
+
+/* hero section */
+@import url(../css/blocks/hero/hero.css);
+@import url(../css/blocks/hero/__overlay/hero__overlay.css);
+@import url(../css/blocks/hero/__title/hero__title.css);
+@import url(../css/blocks/hero/__subtitle/hero__subtitle.css);
+@import url(../css/blocks/hero/__button/hero__button.css);
+@import url(../css/blocks/hero/__image/hero__image.css);
