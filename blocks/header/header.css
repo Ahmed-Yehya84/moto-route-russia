@@ -1,0 +1,13 @@
+@import "../header/__logo/header__logo.css";
+@import "../header/__nav/header__nav.css";
+@import "../header/__menu/header__menu.css";
+@import "../header/__menu-item/header__menu-item.css";
+@import "../header/__link/header__link.css";
+@import "../header/__burger/header__burger.css";
+@import "../header/__toggle/header__toggle.css";
+
+.header {
+  background-color: #111;
+  color: white;
+  padding: 1rem 2rem;
+}

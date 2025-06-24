@@ -1,0 +1,21 @@
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .header__nav {
+    display: none;
+    flex-direction: column;
+    background-color: #111;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .header__nav--active {
+    display: flex;
+  }
+}

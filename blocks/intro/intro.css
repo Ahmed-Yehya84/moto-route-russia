@@ -1,0 +1,9 @@
+@import "../intro/__content/intro__content.css";
+@import "..intro/__title/intro__title.css";
+@import "..intro/__text/intro__text.css";
+
+.intro {
+  padding: 3rem 2rem;
+  background-color: #f5f5f5;
+  text-align: center;
+}

@@ -1,0 +1,11 @@
+@import "../hero/__image/hero__image.css";
+@import "..hero/__overlay/hero__overlay.css";
+@import "..hero/__title/hero__title.css";
+@import "..hero/__subtitle/hero__subtitle.css";
+@import "..hero/__button/hero__button.css";
+
+.hero {
+  position: relative;
+  height: 100vh; /* full screen height */
+  overflow: hidden;
+}

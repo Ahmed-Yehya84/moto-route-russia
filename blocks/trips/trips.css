@@ -1,0 +1,9 @@
+@import "../trips/__container/trips__container.css";
+@import "../trips/__title/trips__title.css";
+@import "../trips/__list/trips__list.css";
+@import "../trips/__item/trips__item.css";
+
+.trips {
+  padding: 3rem 2rem;
+  background-color: #f4f4f4;
+}

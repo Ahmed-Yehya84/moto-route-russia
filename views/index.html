@@ -4,24 +4,94 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MotoRoute Russia</title>
-    <link rel="stylesheet" href="/public/pages/index.css" />
+    <link rel="stylesheet" href="../pages/index.css" />
   </head>
-  <body class="root">
+  <body class="page">
+    <header class="header">
+      <div class="header__container">
+        <div class="header__toggle" id="navToggle">
+          <div class="header__burger"></div>
+          <div class="header__burger"></div>
+          <div class="header__burger"></div>
+        </div>
+
+        <h1 class="header__logo">MotoRoute Russia</h1>
+        <nav class="header__nav">
+          <ul class="header__menu">
+            <li class="header__menu-item">
+              <a href="#" class="header__link">Home</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="#trips" class="header__link">Trips</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="#login" class="header__link">Login</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
     <main class="main">
       <section class="hero">
         <img
-          src="/public/images/20190309_105158-900x600.jpg"
-          alt="Motorcycle adventure hero"
+          src="../images/ChatGPT Image Jun 22, 2025, 10_50_09 PM.png"
+          alt="Adventure motorcycling in Russia"
           class="hero__image"
         />
         <div class="hero__overlay">
-          <h1 class="hero__title">Adventure Rides</h1>
+          <h2 class="hero__title">Adventure Rides</h2>
           <p class="hero__subtitle">
             Plan your ultimate motorcycle journey across Russia
           </p>
           <a href="#get-started" class="hero__button">Get Started</a>
         </div>
       </section>
+
+      <section class="intro" id="get-started">
+        <div class="intro__content">
+          <h3 class="intro__title">Why MotoRoute?</h3>
+          <p class="intro__text">
+            MotoRoute Russia is your trip-planning companion. Design routes,
+            discover stops, and share your journeys with the biker community.
+          </p>
+        </div>
+      </section>
+      <!-- login section -->
+      <section class="login" id="login">
+        <form class="login__form">
+          <h2 class="login__title">Login</h2>
+          <input
+            type="email"
+            class="login__input"
+            placeholder="Email"
+            required
+          />
+          <input
+            type="password"
+            class="login__input"
+            placeholder="Password"
+            required
+          />
+          <button class="login__button" type="submit">Login</button>
+        </form>
+      </section>
+      <!-- trips section -->
+      <section class="trips" id="trips">
+        <div class="trips__container">
+          <h2 class="trips__title">My Planned Trips</h2>
+          <ul class="trips__list">
+            <li class="trips__item">Moscow to Lake Baikal</li>
+            <li class="trips__item">Altai Mountains Loop</li>
+            <li class="trips__item">Trans-Siberian Highway</li>
+          </ul>
+        </div>
+      </section>
     </main>
+
+    <footer class="footer">
+      <p class="footer__text">© 2025 MotoRoute Russia. All rights reserved.</p>
+    </footer>
+    <script src="../scripts/main.js"></script>
   </body>
 </html>
