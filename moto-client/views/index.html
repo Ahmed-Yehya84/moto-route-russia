@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MotoRoute Russia</title>
     <link rel="stylesheet" href="../pages/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
   </head>
   <body class="page">
     <header class="header">
@@ -87,11 +92,37 @@
           </ul>
         </div>
       </section>
+      <section class="trip-list">
+        <h2 class="trip-list__title">Planned Trips</h2>
+        <ul class="trip-list__items" id="tripList"></ul>
+      </section>
+
+      <section class="trip-form">
+        <h2 class="trip-form__title">Add a New Trip</h2>
+        <form id="newTripForm">
+          <input type="text" id="title" placeholder="Trip Title" required />
+          <input
+            type="text"
+            id="start_location"
+            placeholder="Start Location"
+            required
+          />
+          <input
+            type="text"
+            id="end_location"
+            placeholder="End Location"
+            required
+          />
+          <textarea id="description" placeholder="Description"></textarea>
+          <button type="submit">Create Trip</button>
+        </form>
+      </section>
     </main>
 
     <footer class="footer">
       <p class="footer__text">© 2025 MotoRoute Russia. All rights reserved.</p>
     </footer>
+
     <script src="../scripts/main.js"></script>
   </body>
 </html>

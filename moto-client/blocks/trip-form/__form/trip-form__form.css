@@ -1,0 +1,35 @@
+#newTripForm {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+#newTripForm input,
+#newTripForm textarea {
+  padding: 10px 14px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+#newTripForm textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+#newTripForm button {
+  padding: 12px;
+  font-size: 16px;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#newTripForm button:hover {
+  background-color: #004999;
+}

@@ -1,0 +1,14 @@
+@import "../blocks/header/header.css";
+@import "../blocks/hero/hero.css";
+@import "../blocks/intro/intro.css";
+@import "../blocks/login/login.css";
+@import "../blocks/trips/trips.css";
+@import "../blocks/footer/footer.css";
+@import "../blocks/trip-list/trip-list.css";
+@import "../blocks/trip-form/trip-form.css";
+@import "../blocks/trip-list/__title/trip-list__title.css";
+@import "../blocks/trip-list/__items/trip-list__items.css";
+@import "../blocks/trip-list/__item/trip-list__item.css";
+
+@import "../blocks/trip-form/__title/trip-form__title.css";
+@import "../blocks/trip-form/__form/trip-form__form.css";
